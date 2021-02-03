@@ -1,0 +1,29 @@
+{
+    "name": "chanshige/untitled",
+    "description": "Test github workflows",
+    "type": "project",
+    "require-dev": {
+        "squizlabs/php_codesniffer": "*",
+        "phpunit/phpunit": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shigeki Tanaka",
+            "email": "dev@shigeki.tokyo"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Chanshige\\Untitled\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Chanshige\\Untitled\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^8.0"
+    }
+}
